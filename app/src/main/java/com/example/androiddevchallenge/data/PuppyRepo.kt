@@ -13,11 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.example.androiddevchallenge.data
 
-import androidx.compose.ui.graphics.Color
-
-val purple200 = Color(0xFF80d8bf)
-val purple500 = Color(0xFF1ea983)
-val purple700 = Color(0xFF158b67)
-val teal200 = Color(0xFFd88099)
+object PuppyRepo {
+    fun getPups(): List<Puppy> = pups
+    fun getPuppy(puppyId: Int): Puppy = pups.find { it.id == puppyId }!!
+}
