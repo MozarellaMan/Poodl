@@ -4,7 +4,7 @@
 
 
 ## :scroll: Description
-Swipe right to adopt!
+Swipe right to adopt! (well, more accurately click heart to adopt. Flick gestures didn't make the cut)
 
 
 ## :bulb: Motivation and Context
